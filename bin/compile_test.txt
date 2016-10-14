@@ -1,3 +1,3 @@
 #!/bin/bash
 
-javac -classpath "classes/;lib/junit-dep-4.11.jar" src/test/java/is/ru/stringcalculator/*.java -d classes
+javac -classpath "classes/;lib/junit-dep-4.11.jar" src/CodingKata/test/*.java -d classes
