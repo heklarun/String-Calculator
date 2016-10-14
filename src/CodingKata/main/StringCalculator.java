@@ -20,7 +20,7 @@ public class StringCalculator {
 
     private static List<Integer> fromStringToInt(String input) {
     	List<Integer> list =new ArrayList<Integer>();
-    	 String[] ss=input.split("[,\n//;+*-.:?]");
+    	 String[] ss=input.split(",|\n");
     	 if(ss.length > 2)
     	 {
     		 throw new IllegalArgumentException("The list cannot contain more than 2 numbers");
