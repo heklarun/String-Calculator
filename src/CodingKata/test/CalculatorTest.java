@@ -21,7 +21,7 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public void testUnknownNumber() throws Exception {
+	public void testMultibleNumbers() throws Exception {
 		assertEquals(6, StringCalculator.add("1,2,3"));
 	}
 	
